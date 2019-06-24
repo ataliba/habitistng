@@ -1,0 +1,6 @@
+{
+  "name": "habitistNG",
+  "description": "A simple webservice using IFTT, PHP and Pushover to link Fitbit and Habitica",
+  "repository": "https://github.com/ataliba/habitistng",
+  "addons": []
+}
