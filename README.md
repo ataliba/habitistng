@@ -2,6 +2,10 @@
 
 A simple webservice to link **Habitica** and **Todoist** using the power of **IFTTT**
 
+# Publish to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 # Variables 
 
 You need to set 2 variables for Habitica using the values of the api configuration: 
