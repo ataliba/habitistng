@@ -1,16 +1,17 @@
 <?php 
 ############################################
 ##### Ataliba Teixeira - ataliba@pm.me #####
+###
 ############################################
 
-#################################
-###  Inclusao das bibliotecas ###
-#################################
+###############################
+###    Library inclusion    ###
+###############################
  
 require("HabitRPHPG.php");
 
 ####################################
-###  Processando o Json recebido ###
+###       Json section           ###
 ####################################
  
 $JsonTask = json_decode(file_get_contents('php://input'), true);
@@ -19,9 +20,9 @@ print_r($JsonTask);
 preg_match('/\[([^]]+)\]/', $JsonTask['Task'], $output_array);
 
 
-####################################################################
-## Variaveis globais estaticas ( resultados do que foi recebido ) ##
-####################################################################
+#################################################################
+#####            Static variables ( processed )             #####
+#################################################################
  
 $Task  = $JsonTask['Task'];
 $SEC_KEY = $JsonTask['SEC_KEY'];
