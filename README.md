@@ -17,7 +17,7 @@ You need to set 2 variables for Habitica using the values of the api configurati
 <code>heroku config:set HABITICA_USER='your value'</code>
 <br />
 <code>heroku config:set HABITICA_USER_KEY='you value'</code><br />
-- <code>heroku config:set SEC_KEY='you value'</code><br />
+<code>heroku config:set SEC_KEY='you value'</code><br />
 
 # Contributors
 
