@@ -19,7 +19,12 @@ You need to set 2 variables for Habitica using the values of the api configurati
 <code>heroku config:set HABITICA_USER_KEY='you value'</code><br />
 - <code>heroku config:set SEC_KEY='you value'</code><br />
 
+# Contributors
 
-# Thanks to 
+- Binny V A - for the [habitrphpg](https://github.com/binnyva/habitrphpg) library 
+- Ataliba Teixeira - first commits of **Habitistng**
 
+# Thanks To
 
+- HabitRPG Team(Obviously)
+- Binny V A for the [habitrphpg](https://github.com/binnyva/habitrphpg)
